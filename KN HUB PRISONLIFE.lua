@@ -119,6 +119,7 @@ function Library:NewWindow(name)
     Window.Name = (WindowName .. "Window")
     Window.Parent = Container
     Window.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+	
     Window.BackgroundTransparency = 1
     Window.Position = UDim2.new(WindowPosition, -100, 3, -265)
     Window.Size = UDim2.new(0, 170, 0, 30)
