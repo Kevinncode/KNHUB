@@ -1735,15 +1735,7 @@ MainCheatsSection:CreateTextbox("Arrest Player", function(txt)
     end
 end)
 
-MainCheatsSection:CreateDropdown("Meele", {"Knife", "Bow Knife", "Hammer", "Bat", "Lightsaber", "Butterfly Knife"}, 5, function(Meele)
-    if Meele == "Knife" then
-        print'shingg'
-    elseif Meele == "Boom" then
-        print'owweeee.'
-    elseif Meele == "Lightsaber" then
-        print'nyaaaa wera wera werrr werrrr.'
-    end
-end)
+
 
 --PLAYER
 local PlayerWindow = Library:NewWindow("Player")
