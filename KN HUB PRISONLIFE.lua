@@ -1735,7 +1735,15 @@ MainCheatsSection:CreateTextbox("Arrest Player", function(txt)
     end
 end)
 
-
+MainCheatsSection:CreateDropdown("Meele", {"Knife", "Bow Knife", "Hammer", "Bat", "Lightsaber", "Butterfly Knife"}, 5, function(Meele)
+    if Meele == "Knife" then
+        print'shingg'
+    elseif Meele == "Boom" then
+        print'owweeee.'
+    elseif Meele == "Lightsaber" then
+        print'nyaaaa wera wera werrr werrrr.'
+    end
+end)
 
 --PLAYER
 local PlayerWindow = Library:NewWindow("Player")
@@ -3147,8 +3155,9 @@ ModdedSection:CreateButton("Fast Taser", function()
         end
         end)
 
+        local CreditWindow = Library:NewWindow("Made By Kevinn#2021")
 
-   local CreditWindow = Library:NewWindow("Made By Kevinn#2021")
+        local OthersSection = CreditWindow:NewSection("Credit To Jake11price And Others")
 
 
         game.Players.PlayerAdded:Connect(function(plr)
