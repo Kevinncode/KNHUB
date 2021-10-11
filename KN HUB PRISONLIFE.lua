@@ -3148,6 +3148,9 @@ ModdedSection:CreateButton("Fast Taser", function()
         end)
 
 
+   local CreditWindow = Library:NewWindow("Made By Kevinn#2021")
+
+
         game.Players.PlayerAdded:Connect(function(plr)
             if getgenv().alerts then
                 game.StarterGui:SetCore("SendNotification", {
